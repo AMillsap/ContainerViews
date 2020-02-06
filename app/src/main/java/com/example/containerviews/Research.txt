@@ -1,0 +1,9 @@
+1. ListView uses eager loading while recycleView uses lazy loading. ListView uses an array adapter to control
+    the rendering and population of the data while recycleView uses a recycleView adapter which uses an internal
+    class. RecycleView uses layout managers to control rendering as well as how swiping will work.
+2. Lazy loading is when you only initialize an object at the point that you need it.
+3. It is a customizable UI element that separates each item in the list of the recycler view
+4. It is a method that enables you to access each listView item without having to look it up. It lets you
+    not have to use the function findViewById() as much.
+5. You first have to attach it to the RecyclerView. Then you are able to override the onMove,
+    onSwiped, or onChildDraw functions to be able reposition items.
